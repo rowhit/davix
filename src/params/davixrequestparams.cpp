@@ -31,7 +31,7 @@ namespace Davix {
 
 
 
-const char * default_agent = "libdavix/" DAVIX_VERSION;
+const char * default_agent = "libdavix/" DAVIX_VERSION_STRING;
 volatile int state_value =0;
 std::mutex state_value_mtx;
 
